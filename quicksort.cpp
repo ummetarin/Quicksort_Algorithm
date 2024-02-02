@@ -33,5 +33,13 @@ void quicksort(int arr[],int l,int r){
 
 int main(){
 
+int arr[]={4,8,6,5,9,2,1};
+
+quicksort(arr,0,6);
+
+for(int i=0;i<7;i++){
+cout<<arr[i]<<" ";
+}
+
 
 }
